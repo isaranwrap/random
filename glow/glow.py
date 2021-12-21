@@ -64,4 +64,8 @@ for n in range(draws): # Coat the lines in "glow" by drawing n lines around it
             linewidth=glow_size+(diff_linewidth*n),
             alpha=alpha_value)
 
-#ax.fill_between(time, creat, 1, color='orange')
+ax.fill_between(timeB, creatB, 1, color=colors[0], alpha = 0.3)
+ax.fill_between(timeD, creatD, 1, color=colors[1], alpha = 0.3)
+
+
+plt.show()
