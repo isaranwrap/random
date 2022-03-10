@@ -9,6 +9,7 @@
 #
 # Rate limit remaining: 59/60
 # Rate limit reset at: 2022-04-11 01:33:58 UTC
+<<<<<<< HEAD
 
 install.packages("devtools")
 #devtools::install_github("nstrayer/datadrivencv")
@@ -26,3 +27,5 @@ datadrivencv::use_datadriven_cv(
 )
 
 # list.files()
+=======
+>>>>>>> 3391ea8... Added resume folder and creating data-driven resume with datadrivencv in R
