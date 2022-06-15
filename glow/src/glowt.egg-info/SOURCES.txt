@@ -1,0 +1,5 @@
+setup.py
+src/glowt.egg-info/PKG-INFO
+src/glowt.egg-info/SOURCES.txt
+src/glowt.egg-info/dependency_links.txt
+src/glowt.egg-info/top_level.txt

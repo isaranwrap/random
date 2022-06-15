@@ -3,9 +3,30 @@
 
 # Glowing is really just dimishing the brightness/transparence outwards from the line
 
-#Imports
+# Dependencies
 import pandas as pd
 import matplotlib.pyplot as plt
+
+# Parameters
+draws = 10 # How many times to draw the line
+diff_linewidth = 1.05 # Different line widths each draw
+alpha_value = 0.03 # Alpha values of glow effect
+glow_size = 5 # Glow linewidth
+
+def glowPlot(fig = None, ax = None
+             draws = 10, diff_linewidth = 1.05,
+             alpha_value = 0.03, glow_size = 5,
+             ):
+
+for n in range(draws): # Coat the lines in "glow" by drawing n lines around it
+
+    ax.plot(timeB, creatB, color = colors[0],
+            linewidth=glow_size+(diff_linewidth*n),
+            alpha=alpha_value)
+            
+    ax.plot(timeD, creatD, color = colors[1],
+            linewidth=glow_size+(diff_linewidth*n),
+            alpha=alpha_value)
 
 colors = [
     '#08F7FE',  # teal/cyan
