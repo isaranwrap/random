@@ -1,0 +1,9 @@
+In terms of the dimensionality of data, (i.e. KB --> MB --> GB) 
+
+txt --> images --> videos
+
+& it's up to ishan to figure out where 
+
+the intermediates lie; 
+
+ask a CS expert // professor

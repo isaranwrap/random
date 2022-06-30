@@ -1,0 +1,10 @@
+##
+## jin tian shi | er ling er er nian
+## zing qi er   | jiu yue er shi ri
+#
+#
+## send iMessage from CMD line
+
+>> osascript -e 'tell application "Messages" to send "Nada importante" to buddy "Sankee Mummareddy"'
+
+>> osascript -e 'tell application "Messages" to send "Esto es mas importante" to buddy "Sankee Mummareddy"'

@@ -1,0 +1,17 @@
+terminal:
+
+(macOS)
+CTRL + SHIFT + TAB
+
+(Linux)
+
+
+command prompt:
+
+(windows)
+
+
+RStudio:
+
+(macOS)
+CMD + SHIFT + N ~ new file 
